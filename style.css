@@ -137,6 +137,7 @@ dd{
     justify-content: center;
   }
   [title]:focus::after {
+    z-index:1;
     content: attr(title);
     position: absolute;
     top: 90%;
