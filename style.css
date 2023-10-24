@@ -90,7 +90,7 @@ dd{
 
 /*Wrapper*/
 
-.container {width:960px;
+.container {
  /* LaTeX CSS options */
   max-width: 80ch;
   /* min-height: 100vh; */
