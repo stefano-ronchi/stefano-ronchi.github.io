@@ -97,8 +97,6 @@ dd{
   overflow-x: hidden;
   margin: 0 auto;
   padding: 2rem 1.25rem;
- 
-  
   border:1px solid #9f9f9f;
   background:#ffffff; 
   opacity:1;
@@ -151,4 +149,47 @@ dd{
   }
 }
 
+li{
+  margin-bottom: 1rem;
+}
 
+.photocontainer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: fit-content;
+  height: fit-content;
+  background-image: repeating-linear-gradient(45deg, #000000 0, #000000 1px, transparent 0, transparent 50%);
+  background-size: 5px 5px;
+  background-color: #ffffff;
+}
+
+.photo {
+    max-width: 20ch;
+    margin-right: 9px;
+    margin-bottom: 0; 
+    padding-bottom: 0;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading-left {
+  flex: 50%;
+}
+
+.heading-right {
+  flex: 25%;
+  padding-left:1rem;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 600px) {
+  .heading-right, .heading-left {
+    flex: 100%;
+    text-align: center;
+  }
+}
